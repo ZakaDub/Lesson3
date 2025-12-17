@@ -5,7 +5,7 @@ const myPin = "1234"
 for (pinCode of pinCodes) {
     if(pinCode === myPin) {
         console.log("Пин код найден!")
-        continue
+        break
     } 
     
     else {console.log("Неверный пин..")};
